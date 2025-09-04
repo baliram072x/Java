@@ -3,6 +3,7 @@ public class First {
         int a = 10;
         int b = 20;
         int c = 40;
+        int d =34;
         System.out.println(a + b + c);
     }
 }
