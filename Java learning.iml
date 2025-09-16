@@ -2,12 +2,13 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../Javalearning">
-      <sourceFolder url="file://$MODULE_DIR$/../Javalearning/Conditionals" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Javalearning/Java-Question" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Javalearning/Loops" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Javalearning/Oprators" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../Javalearning/variables-and-Datatypes" isTestSource="false" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Conditionals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Question" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Oprators" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/variables-and-Datatypes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FunctionsAndMethods" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
