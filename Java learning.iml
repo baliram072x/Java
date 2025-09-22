@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Oprators" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/variables-and-Datatypes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FunctionsAndMethods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Array" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
