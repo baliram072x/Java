@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/variables-and-Datatypes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FunctionsAndMethods" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Sorting Algorithm" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
