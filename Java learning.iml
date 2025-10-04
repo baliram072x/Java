@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/FunctionsAndMethods" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Sorting Algorithm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2D Array" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
