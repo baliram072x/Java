@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class incometaxcalculator {
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
+        System.out.println("enter your anual income :");
         int income = sc.nextInt();
         int tax;
         if (income < 500000 ){
