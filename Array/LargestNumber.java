@@ -1,8 +1,8 @@
 public class LargestNumber {
     public static int getLargest(int number[]) {
-        int largest = Integer.MAX_VALUE;
+        int largest = Integer.MIN_VALUE;
         for (int i = 0; i < number.length; i++) {
-            if (largest > number[i]) {
+            if (largest < number[i]) {
                 largest = number[i];
             }
         }
