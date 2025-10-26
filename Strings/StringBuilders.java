@@ -1,11 +1,11 @@
 public class StringBuilders {
     public static void main (String[]args){
 
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sc = new StringBuilder("");
 
         for (char ch = 'a'; ch<='z' ; ch++){
-            sb.append(ch);
+            sc.append(ch);
         }
-        System.out.println(sb);
+        System.out.println(sc);
     }
 }
