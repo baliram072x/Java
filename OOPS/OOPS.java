@@ -9,6 +9,12 @@ public class OOPS {
         System.out.println(p1.tip);
         p1.color = "red";
         System.out.println(p1.color);
+
+        Bankaccount myacc = new Bankaccount();
+        myacc.username = "nbam";
+        myacc.setPassword("fdfdffdf");
+        System.out.println(myacc.username);
+
     }
 }
 // new class
@@ -16,11 +22,21 @@ class Pen {
     String color;
     int tip;
 //function
+    //getters
+    String getcolor(){
+        return this.color;
+    }
+
+    int getTip(){
+        return this.tip;
+    }
+
+    //setters
     void setcolor(String newcolor) {
-        color = newcolor;
+        this.color = newcolor;
     }
     void setTip(int newTip) {
-        tip = newTip;
+        this.tip = newTip;
     }
 }
 
@@ -37,5 +53,9 @@ class  student{
 
 
 class Bankaccount{
- 
+public String username;
+private String password;
+public void setPassword(String pwd){
+    password =pwd;
+}
 }
