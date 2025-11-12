@@ -17,7 +17,7 @@ class Animal{
         System.out.println("eats");
     }
 
-    void brathe(){
+    void breathe(){
         System.out.println("breathe");
     }
 }
