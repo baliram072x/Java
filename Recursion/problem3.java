@@ -12,3 +12,6 @@ public class problem3 {
         System.out.println(factorial(n));
     }
 }
+
+
+// calci factorial of number
