@@ -22,21 +22,21 @@
 
 public class problem5 {
     public static int lastoccurance(int arr[] , int key , int i ){
+        if (i == arr.length){
+            System.out.println("not found !!");
+            return -1;
+        }
         int isfound = lastoccurance(arr , key , i+1);
-        if (isfound != -1){
-            return isfound;
+        if (isfound == -1 && arr[i] == key ){
+            return i;
         }
-        // cheak with self
-        if (arr[i] == key){
-            return i ;
-        }
+ return isfound;
     }
     public static void main(String[] args){
         int arr[] = {8,3,6,9,5,18,2,5,3};
-        System.out.println(lastoccurance(arr, 10, 0 ));
+        System.out.println(lastoccurance(arr, 5, 0 ));
     }
 }
-
 
 // last occurence in array
 
