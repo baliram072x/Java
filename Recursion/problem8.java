@@ -6,18 +6,21 @@ class problem8{
         }
 
         //kaam 
-        char currchar = str.charAt(idx);
+        char currchar = Character.toLowerCase(str.charAt(idx));
         if(map[currchar-'a'] == true){
             // duuplicate
             removeduplicate(str, idx+1, newstr, map);
         }else {
             map[currchar-'a'] = true;
-            removeduplicate(str, idx=1, newstr.append(currchar), map);
+            removeduplicate(str, idx+1, newstr.append(currchar), map);
         }
     }
 
     public static void main(String[] args) {
-        String str = "appnaacolleeggeee";
+        String str = "Baalliram";
         removeduplicate(str, 0, new StringBuilder(""), new boolean[26]);
     }
 }
+
+
+
