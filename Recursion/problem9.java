@@ -8,7 +8,7 @@ public class problem9 {
             return n;
         }
         // // choise
-        // //single 
+        // //single  
         // int fnm1 = friendsparing(n - 1);
 
         // //pair
