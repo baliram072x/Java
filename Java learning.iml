@@ -19,6 +19,9 @@
       <sourceFolder url="file://$MODULE_DIR$/OOPS" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OOPSQUESTION" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RevisonAndDSA" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DivideAndConquer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RevisonAndDSA/DEC_REVISION" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
