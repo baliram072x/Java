@@ -2,7 +2,7 @@
 public class MergeSort {
     // main function
     public static void main(String[] args){
-        int arr[] = {6,3,9,5,4,8};
+        int arr[] = {6,3,3,5,4,3};
         mergesort(arr , 0 , arr.length-1 );
         printArr(arr);
     }
@@ -20,11 +20,14 @@ public class MergeSort {
         if (si>=ei){
             return;
         }
-        //kaam
+        //work
         int mid = si + (ei-si)/2;
         mergesort(arr ,si ,mid); //left part
         mergesort(arr ,mid+1 , ei); // right part
         merge(arr,si,mid,ei);
+        /*
+        here
+         */
     }
 
     // merge function
