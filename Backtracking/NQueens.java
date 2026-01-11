@@ -1,3 +1,6 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class NQueens {
     //safe function
 public static Boolean issafe(char board[][] , int row ,  int col){
@@ -38,7 +41,8 @@ public static Boolean issafe(char board[][] , int row ,  int col){
     public static void nQueens(char board[][], int row){
         //base
         if (row == board.length){
-            printboard(board);
+//            printboard(board);
+            count++;
             return;
         }
         // column
@@ -52,9 +56,12 @@ public static Boolean issafe(char board[][] , int row ,  int col){
         }
     }
 
+static int count = 0;
     // main function
     public static void main(String[] args){
-        int n = 4;
+        Scanner sc =  new Scanner(System.in);
+        System.out.println("enter number of N");
+        int n = sc.nextInt();
         char board[][] =  new char[n][n];
 
         for (int i= 0; i<n; i++){
@@ -63,5 +70,9 @@ public static Boolean issafe(char board[][] , int row ,  int col){
             }
         }
         nQueens(board , 0 );
+        System.out.println("total ways to solve n queens " + count);
     }
 }
+
+///n Queens Time complexity
+/// O(n!)
